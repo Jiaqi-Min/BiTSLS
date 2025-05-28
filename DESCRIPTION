@@ -1,0 +1,20 @@
+Package: BiTSLS
+Type: Package
+Title: Bidirectional Two-Stage Least Squares Estimation
+Version: 0.1.0
+Date: 2025-05-26
+Authors@R: person("Jiaqi", "Min", email = "fhoneysuckle7@gmail.com", 
+                  role = c("aut", "cre"))
+Description: Implements bidirectional two-stage least squares (Bi-TSLS) estimation 
+    for identifying bidirectional causal effects between two variables 
+    in the presence of unmeasured confounding. The method uses proxy 
+    variables (negative control exposure and outcome) along with 
+    at least one covariate to handle confounding.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    stats
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 3.5.0)
