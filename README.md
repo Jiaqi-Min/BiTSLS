@@ -7,7 +7,7 @@ A simple R package for estimating bidirectional causal effects using proxy varia
 ```r
 # Install from GitHub
 # install.packages("devtools")
-devtools::install_github("Fhoneysuckle/BiTSLS")
+devtools::install_github("Jiaqi-Min/BiTSLS")
 ```
 
 ## Usage
